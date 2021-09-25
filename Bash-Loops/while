@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while [ "$INPUT" != "bye" ]
+do
+	echo "Please type something - bye to quit"
+	read INPUT
+	echo "You typed: $INPUT"
+done

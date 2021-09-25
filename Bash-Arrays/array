@@ -1,0 +1,16 @@
+#!/bin/bash
+Fruits=('Apple' 'Banana' 'Orange' 'Pear')
+echo "Element 0 is"  ${Fruits[0]}
+echo "All elements are" ${Fruits[@]}
+echo "Number of elements in array is" ${#Fruits[@]}
+echo "String length of the first element is" ${#Fruits}
+echo "String length of the third element is" ${#Fruits[3]}
+echo "Range is" ${Fruits[@]:3:2}
+
+echo "Inserting new item to array"
+Fruits=("${Fruits[@]}" "Watermelon")
+echo "All elements are now"  ${Fruits[@]}
+unset Fruits[2]
+echo "Removed index number two"
+echo "All elements are now"  ${Fruits[@]}
+

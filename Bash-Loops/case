@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Please input a word"
+while :
+do
+	read INPUT
+	
+	case $INPUT in
+	Hello)
+	echo "Hello there!"
+	;;
+
+	Bye)
+	echo "See you!"
+	break
+	;;
+
+	*)
+	echo "Sorry, I don't understand"
+	;;
+	
+	esac
+done
+
+echo "That's all!"
+

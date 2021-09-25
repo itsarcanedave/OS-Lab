@@ -1,0 +1,13 @@
+#!/bin/bash
+
+time="0"
+
+while [ $time -le 100 ]
+	do
+	
+		#curl -o HAProxy$time.csv 'http://18.205.56.109:8080/stats;csv;norefresh'
+		curl -o $time.txt  https://filesamples.com/samples/document/txt/sample3.txt
+		sleep 10
+		time=$[$time+10]
+	
+	done  

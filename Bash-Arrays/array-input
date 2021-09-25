@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while [ "$INPUT" != "bye" ]
+do
+	echo "Please type something - bye to quit"
+	read INPUT
+	Array=("${Array[@]}" "${INPUT}")
+	echo "You typed: $INPUT"
+done
+
+echo "The elements of the array is" ${Array[@]}

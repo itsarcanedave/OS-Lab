@@ -1,0 +1,10 @@
+#!/bin/bash
+
+filecontent=( `cat "loadfile" `)
+echo "Loading the contents of loadfile into an array"
+
+for i in "${filecontent[@]}"
+do
+echo $i
+done
+echo "The contents of the file are now in the array!"

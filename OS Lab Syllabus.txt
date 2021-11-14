@@ -1,0 +1,36 @@
+Syllabus for Operating Systems Lab
+
+Part 1: Basic Linux Commands
+
+Week 1: Virtualbox & Ubuntu Installation
+Week 2: Linux System Directories & Basic Commands
+
+Part 2: Bash (Shell) Scripting
+Week 3: Introduction to Bash (Shell) Scripting
+Week 4: Bash Loops
+Week 5: Bash Arrays
+
+Part 3: System Call - IPC Shapley
+
+Week 6: Segment Address (Program 1.3 & 1.4)
+Week 7: Fork System Call & PID (Program 1.5 & 2.1)
+Week 9: Stat System Call, Resource Limit, Command Line Arguments (Program 2.2, 2.3, 2.5)
+Week 10: Environment Variables (Program 2.7, 2.8, 2.9)
+Week 11: Multiple parent/child processes, Excelp System Call, Atexit Library (Program 3.2, 3.3, 3.8)
+Week 12: Pipes & Shared Memory Segments (Program 5.1 & Program 8.1)
+Week 13: OpenMP
+
+
+Week 14: Project Progress Discussion
+Week 15: Project Presentation
+
+
+
+
+
+
+
+
+
+
+
